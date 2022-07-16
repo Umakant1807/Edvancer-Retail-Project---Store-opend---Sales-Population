@@ -1,4 +1,6 @@
 
+# Store should be opened in a particular area depending on sales, population, area, etc.
+
 # Set working directory
 setwd("C:/Users/staru/OneDrive/Desktop/Retail Project")
 
@@ -277,3 +279,5 @@ library(pROC)
 
 # For Training Data (Area under the curve: 0.8706)
 auc(roc(store_train$store, train_prob.score)) # roc = Receiver operating characteristic curve
+            
+            
